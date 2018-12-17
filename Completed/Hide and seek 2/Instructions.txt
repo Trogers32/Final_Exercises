@@ -1,0 +1,9 @@
+The new criminal mastermind, Rico, has shredded his flag into four pieces and hid them in random files. 
+So far, detectives have recovered the files, but they need your help to figure out what the flags says
+
+	strangeNoise.bin 	------ Edit as text, take the text and convert the - to 0 and + to 1, and use a binary to text decoder
+	OddNoise 		------ Hidden text in wav 
+	weirdnoise 		------ Edit file as text and find at bottom
+	RandomNoise 		------ Reversed audio plus change in pitch and speed 
+	
+	add all found data together to get the flag

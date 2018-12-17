@@ -1,0 +1,47 @@
+* {
+    font-family: Courier;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-position: center;
+    background-size: cover;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(background.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+#contentWrapper {
+    margin-top: 200px;
+    margin-left: 200px;
+    color: rgba(244, 174, 34, 0.80);
+    text-align: left;
+}
+
+.inputTxt {
+    padding: 5px;
+    font-size: 110%;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+    margin: 2px;
+    padding: 10px;
+    height: 40px;
+    font-size: 300;
+    border: 3px solid rgba(244, 174, 34, 0.80);
+    color: rgba(244, 174, 34, 0.80);
+    background-color: rgba(0, 0, 0, 0.80);
+    -webkit-transition:background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+    border: 3px solid rgba(0, 0, 0, 0.80);
+    color: rgba(0, 0, 0, 0.80);
+    background-color: rgba(244, 174, 34, 0.80);
+}

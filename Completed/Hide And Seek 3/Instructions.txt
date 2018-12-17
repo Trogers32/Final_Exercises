@@ -1,0 +1,21 @@
+The criminal mastermind, Rico, has a backup flag hidden somewhere. However, DoD's brightest engineer was able to tap into Rico's network and sniff out some packets. 
+We are pretty confident that the flag is here somewhere... could you help us look into it? Remember that our flag must start with *CTF{ :)
+
+Open Packet traffic in Wireshark
+Export object HTTP -- picture of a baby stegosaurus
+Basic steganography shows nothing - duplicate layer and show differences / changing color pallete
+Binwalk shows a Zlib file
+Binwalk -e message.png --> 51.zlib
+------Don't know how to decompress the zlib file-------
+Tried to transfer to windows and unzip with 7zip
+
+Zlib is a deadend
+
+A cute baby stegosaurus
+Acute = Urgent = Urgent pointers
+tshark -r stego.pcap -T fields -e tcp.urgent_pointer | egrep -vi "^0$"
+tcp.urg.value == 1
+
+67 84 70 123 65 110 100 95 89 111 117 95 84 104 111 117 103 104 116 95 73 116 95 87 97 115 95 73 110 95 84 104 101 95 80 105 99 116 117 114 101 125
+
+Flag is the above Hex converted to text

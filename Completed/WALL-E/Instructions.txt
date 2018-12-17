@@ -1,0 +1,6 @@
+Be sure when you tell a robot where it should *not* look that you're not also telling a hacker where she *should* look.
+
+Go to /robots.txt
+Find and go to /F1Ag.php
+Inspect page
+Find the flag in the source of the page

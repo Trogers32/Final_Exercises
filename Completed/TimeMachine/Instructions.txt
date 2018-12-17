@@ -1,0 +1,27 @@
+We have intercepted a packet capture of a terrorist group's conversation while they were transferring their secret code from one computer to another. 
+Analyze the pcaps and see if you can find the code to activate the time machine
+
+Inspecting page gives nothing
+
+Open conversation packet in Wireshark
+Export HTTP file Secret.HTML
+Find Urer vf zl dhrfgvba: I2uuqPO3LKZtERITD09BW3ZtMzylp3DtpKIiqTHtLJqunJ4/Cj== on the webpage
+Urer vf zl dhrfgvba: --> Caesar Cipher+13: Here is my question:
+I2uuqPO3LKZtERITD09BW3ZtMzylp3DtpKIiqTHtLJqunJ4/Cj== --> From base64 ROT13: What was DEFCON's first quote again??
+
+Here is my question: What was DEFCON's first quote again??
+
+Tried:
+DEFCON1
+DEFCON
+DEF CON
+DEF CON1
+DEF CON 1
+Platinum Net
+The Dark Tangent
+To hack or not to hack, this is not the question.
+
+Heard of the wayback machine: a website used as an archive tool for all past versions of websites.
+the wayback machine for very first version of defcon.org
+
+Flag is found upon entering the quote found at the top of the original defcon.org page

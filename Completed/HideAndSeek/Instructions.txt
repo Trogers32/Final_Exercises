@@ -1,0 +1,12 @@
+The only thing that the master-mind criminal, Ralph, has left behind before his passing was this zipped file. 
+His final words were 'You now have all you need to find my last flag... the flag that you find will grant you access to my secret hideout'. 
+Please Help the investigation team find this flag!
+
+Tried edit as text, adding a layer and showing the difference, tried layering the pictures on top of one another, changing color schemes, 
+using strings command, using binwalk(maybe ARJ archive data in 1.jpg), tried steghide extract using the 'code' in the hide and seek file name
+
+
+password for steghide extract is the individual game consoles
+Each picture gives a part of the final password to use
+for the hideAndSeek.jpeg file
+Text from jpg is a hex encoded string that translates to the flag

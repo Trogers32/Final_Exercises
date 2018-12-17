@@ -1,0 +1,52 @@
+#wrapper {
+    width: 60em;
+
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+#main-content {
+    width: 25em;
+    float:left; /* add this */
+}
+#login {
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+
+#loginform {
+    display: inline-block;
+    text-align: center;
+}
+
+body {
+    font-family: 'Lato', 'Arial', sans-serif;
+    margin: 20px !important;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: url("codepath_background.png") !important;
+    -webkit-background-size: cover;
+    -moz-background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+h1 {
+  text-align: center;
+  color: Red;
+}
+
+h2 {
+  text-align: center;
+  color: Red;
+}
+
+a, a:visited {
+  color: Blue !important;
+}
+
+text {
+  color: Black !important;
+}
+
+p {
+  color: Black !important;
+}

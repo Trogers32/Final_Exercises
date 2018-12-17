@@ -1,0 +1,9 @@
+HTTP 1 - port 80 for http
+HTTP 2 - port 443 for https
+Hacking Jargon 2 - botnet
+Crypto 1 - Caeser cipher to decode the given text
+Crypto 2 - Base64 to decode the given text
+Hacking Jargon 4 - SQL injection
+Hacking Jargon 1 - Phishing
+Security Jargon 1 - CVE
+Hacking Jargon 3 - remote code execution

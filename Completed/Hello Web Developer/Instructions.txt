@@ -1,0 +1,1 @@
+Inspect the page to find the flag hidden in the source code.

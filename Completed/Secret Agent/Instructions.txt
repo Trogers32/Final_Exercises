@@ -1,0 +1,31 @@
+The CIA has been compromised! As a double agent, your task is to use this oportunity to discover the new code name of one their most capable agents. Good Luck!
+
+https://flags.codepath.com/bf/public/protected/flags/CIA/detail.php?id=1
+IDOR exploit gives text that is encoded using a CAESAR Cipher
+
+
+Did IDOR up to id=80
+New data stopped after id=10
+
+DO YOU KNOW THE NEW CODENAME OF PHANTOMPHREAK
+
+I DO NOT BUT ACID BURN MIGHTVE AND IDEA
+
+ZEROCOOL TOLD ME TO CHECK WITH YOU CONCERNING PHANTOMPHREAK NEW CODENAME
+
+YOU NEED TO CHECK RICKYBOBBY MESSAGES HE GOT AN EMAIL FROM THE DIRECTOR CONTAINING INFORMATION ON HOW TO GET PHANTOMPHREAK NEW CODE NAME
+
+IVE CREATED A DUMMY ACCOUNT THAT CONTAINS PHANTOMPHREAK NEW CODENAME THE USERNAME IS THEOWL SINCE OUR WEBSITE
+HAVE BEEN COMPROMISE I CANNOT GIVE YOU THE PASSWORD THROUGH THIS EMAIL USE THE PASSWORD GIVEN TO EVERY NEW 
+RECRUIT WHEN THEY JOINED OUR RANKS I TRUST YOU KNOW WHAT IM TALKING ABOUT
+
+Username = theowl
+
+Brute force the password - hash the passwords before brute force
+
+pre-hash with md5
+
+password before hashing is thumper
+bb98c7c6f1d1b85cce0c92efe2fa97b5
+
+Flag is found on the page after logging in

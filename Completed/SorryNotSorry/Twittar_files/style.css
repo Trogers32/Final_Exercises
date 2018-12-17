@@ -1,0 +1,70 @@
+* {
+    font-family: arial, courier, sans-Serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-position: center;
+    background-size: cover;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(background.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 500%;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+#contentWrapper {
+    background-color: rgba(0, 0, 0, 0.50);
+    padding: 50px;
+    margin: 200px auto 0px auto;
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    text-align: center;
+}
+
+.col {
+    padding:5px;
+}
+
+.leftCol {
+    text-align: right;
+}
+
+.rightCol {
+    text-align: left;
+}
+
+.inputTxt {
+    padding: 5px;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+    margin: 2px;
+    padding: 10px;
+    height: 40px;
+    font-size: 300;
+    border-radius: 40px;
+    -webkit-transition: background-color 0.2s, color 0.2s;
+    transition: background-color 0.2s, color 0.2s;
+    border: 3px solid rgba(255, 255, 255, 0.80);
+
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.btn:hover,
+.btn:active {
+    background-color: rgba(255, 255, 255, 0.80);
+    color: rgba(0, 0, 0, 0.80);
+}

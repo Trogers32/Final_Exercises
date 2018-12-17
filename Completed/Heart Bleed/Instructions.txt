@@ -1,0 +1,7 @@
+This page is infected by the heartbleed bug. Teach them a lesson
+
+Inspect page and find the comic for hearbleed
+click say and it will show a change in the url
+adjust the length to a large number and find:
+ *CTF{VFIVPZ_BLF_ULFMW_NV} 
+use a affine cipher decoder on the main part of the flag

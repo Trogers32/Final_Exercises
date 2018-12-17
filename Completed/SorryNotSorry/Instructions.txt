@@ -1,0 +1,15 @@
+You are a hacker, and today you want to mess with your favorite celebrity, Joey Tribbiani. 
+You have been stalking his network for a while and noticed that he visits these for sites most often: JoeyTribbiani, Koogle, Twittar, VIZA. 
+Here's some info that could help you: You found his leaked Koogle account password: koogle_password_joey, 
+and you know that Joey's username for his website is in the list of usernames (usernames.zip) that you found online. 
+Let's see if you can hack into Joey's website!
+
+Use the given username file to do user enumeration on the Joey Tribbiani website : find drakeRamoray123
+Use the forgot password option on the VIZA website to get the last 4 digits of Joey's credit card 7183 from the found username
+Take the credit card number and do the forgot my password option on the Joey Tribbiani website to get the necessary email address DrDrakeRamoray@joey.com
+Login to the Koogle website using the email address and the given password koogle_password_joey
+Refresh the Koogle page while intercepting the traffic to find the session id KoogleSession=911ac81c-7e74-45ee-bfc4-b03a67b20dc0;
+Go to the Twittar website and intercept the login as Koogle traffic. Add the Koogle session id to the request and then forward it.
+Find the current password on Twittar: my_Master_Password123
+Finally go back to the Joey tribbiani website and use the recovered master password and the originally found username to login
+Flag is found on the page after logging in
