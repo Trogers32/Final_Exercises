@@ -1,0 +1,8 @@
+The flag isn't in the PHP file, but it's in the same directory. You're going to need more than the browser for this one.
+
+
+https://flags.codepath.com/public/rce1/protected/flags/torrent/
+
+Going to the given webpage results in a 404 error.
+
+I've never used a torrenting system before so I was unfamiliar with how to go forward from here.

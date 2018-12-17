@@ -1,0 +1,24 @@
+We realised that messing the verb will help us break this page, but will that be enough this time?
+
+IDOR by adding /index.php?todo=&submit=see&user=Broulaye to the url
+https://flags.codepath.com/advanced/public/protected/flags/ArtLover/index.php?todo=&submit=see&user=Broulaye
+Find the following:
+*CTF{Ev3_Qv0u3c_M0m_P00b_Ev3_A0b3_A0f_G33}
+-Mona Lisa
+
+-The Starry Night
+
+-The Last Supper
+
+-The Persistence of Memory
+
+jpg of mona lisa with a magnifying glass
+
+Tried entering the flag but it didn't work.
+Assuming the flag is encrypted.
+Tried steghide extract on the jpg of the mona lisa.
+Attempted passwords: 
+Vinci, DaVinci, LeonardoDaVinci, Leonardo, Renaissance, Art, Painting, Louvre, Dali, Salvador, SalvadorDali, Gogh, VanGogh, VincentVanGogh, Stegano, Steghide
+
+Not sure if there actually is a hidden file in the picture. File name of Stegano.jpg implies there's a hidden file.
+Tried every cipher on the dcode website. Possible that it was one of them and I just skimmed over it by accident.

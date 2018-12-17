@@ -1,0 +1,5 @@
+Arbitrary file upload is arbitrary.
+
+
+I wasn't sure how to exploit the weakness of the page. 
+I tried uploading a php script and then changing the url, but it had no effect.

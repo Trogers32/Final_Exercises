@@ -1,0 +1,9 @@
+Seems like a weird way to load an image, doesn't it? Wonder what else you could load that way.
+
+Inspecting the gif shows a massive base64 encoded source name - saved in separate file
+Tried changing target to flag.txt, flag.gif, ctf.txt, ctf.gif, Firefox.txt, Firefox.gif
+
+Pulled lYJEEYAxCGMcIg4HMLAAQ4JggO84JAk2L+ACAgAOw== from the end of the troll gif
+This gives gibberish.
+
+Not sure how to proceed from here.

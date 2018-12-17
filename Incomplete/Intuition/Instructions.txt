@@ -1,0 +1,7 @@
+Only local requests can see the flag. Request headers never lie, right?
+
+Inspecting page gives nothing
+Tried intercepting refresh traffic and adding the 'allow Origin' and 'Origin:localhost'
+Disable certain security features with chrome before sending traffic?
+
+Flag remains uncaptured by anyone.

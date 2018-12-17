@@ -1,0 +1,3 @@
+The Admin of this page was careless when implementing this file upload form, see if you can exploit it.
+
+Same issue as the first file upload problem.

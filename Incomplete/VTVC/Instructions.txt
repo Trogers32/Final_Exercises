@@ -1,0 +1,24 @@
+This page allows you to create a todo list. Can you find a way to see others' todo lists?
+
+IDOR vulnerability
+Inspect shows "John's list contains what you seek"
+
+chang url to /index.php?todo=&submit=see&user=John
+Find encrypted text on the page plus a picture
+Inspect the page and find the text: I'm too forgetfull to remember a key so i'll just make the name of the cypher the key
+
+bzugrvp pdaz xvxci ymbmymjl vtisusc hmgxoecp nvggxw rizie
+
+bzugrvp pdaz xvxci: ymbmymjl
+
+-vtisusc
+
+-hmgxoecp
+
+-nvggxw
+
+-rizie
+
+jpg of a shopping cart in a market
+
+Not sure what cipher is used for the above text. Tried all brute force ciphers on dcode.
